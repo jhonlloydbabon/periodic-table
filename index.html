@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Periodic Table | Babon Jhon Lloyd N.</title>
+</head>
+<body>
+    <div class="header" >
+        <h2><span>Babon</span> Jhon LLoyd N.</h2>
+        <h1>The Periodic Table of Elements</h1>
+    </div>
+
+    <div class="legends">
+        <div>
+            <div class="color" style="--color-family: rgb(21, 255, 255);"></div>
+            <div class="type">
+                <span>Alkali metals</span>
+            </div>
+        </div>
+        <div>
+            <div class="color" style="--color-family:rgb(255, 59, 92);"></div>
+            <div class="type">
+                <span>Alkaline earth metals</span>
+            </div>
+        </div>
+        <div>
+            <div class="color" style="--color-family:rgb(0, 255, 106);"></div>
+            <div class="type">
+                <span>Transition metals</span>
+            </div>
+        </div>
+        <div>
+            <div class="color" style="--color-family:rgb(255, 230, 0);"></div>
+            <div class="type">
+                <span>Post-transition metals</span>
+            </div>
+        </div>
+        <div>
+            <div class="color" style="--color-family:rgb(255, 255, 255);"></div>
+            <div class="type">
+                <span>Metalloids</span>
+            </div>
+        </div>
+        <div>
+            <div class="color" style="--color-family: rgb(255, 104, 44);"></div>
+            <div class="type">
+                <span>Reactive nonmetals</span>
+            </div>
+        </div>
+        <div>
+            <div class="color" style="--color-family: rgb(74, 174, 255);"></div>
+            <div class="type">
+                <span>Noble gasses</span>
+            </div>
+        </div>
+        <div>
+            <div class="color" style="--color-family:rgb(255, 83, 203);"></div>
+            <div class="type">
+                <span>Actinides</span>
+            </div>
+        </div>
+        <div>
+            <div class="color" style="--color-family:rgb(196, 196, 196);"></div>
+            <div class="type">
+                <span>Lanthanides</span>
+            </div>
+        </div>
+        <div>
+            <div class="color" style="--color-family:#FFD371"></div>
+            <div class="type">
+                <span>Unknown properties</span>
+            </div>
+        </div>
+    </div>
+    <div class="table">
+        <!-- ROW 1 -->
+        <div class="element row1" data-foo="1.008" style="--color-family: rgb(255, 104, 44);">
+            <span class="num">1</span>
+            <p>H</p>
+            <span class="meaning">Hydrogen</span>
+        </div>
+        <div class="element row1" data-foo="2.0026" style="--color-family: rgb(74, 174, 255);">
+            <span class="num">2</span>
+            <p>He</p>
+            <span class="meaning">Helium</span>
+        </div>
+
+        <!-- ROW 2 -->
+        <div class="element row2" data-foo="6.94" style="--color-family: rgb(21, 255, 255);">
+            <span class="num">3</span>
+            <p>Li</p>
+            <span class="meaning">Lithium</span>
+        </div>
+        <div class="element row2" data-foo="9.0122" style="--color-family:rgb(255, 59, 92);">
+            <span class="num">4</span>
+            <p>Be</p>
+            <span class="meaning">Beryllium</span>
+        </div>
+        <div class="element row2" data-foo="10.818" style="--color-family:rgb(255, 255, 255);">
+            <span class="num">5</span>
+            <p>B</p>
+            <span class="meaning">Boron</span>
+        </div>
+        <div class="element row2" data-foo="12.011" style="--color-family: rgb(255, 104, 44);">
+            <span class="num">6</span>
+            <p>C</p>
+            <span class="meaning">Carbon</span>
+        </div>
+        <div class="element row2" data-foo="14.007" style="--color-family: rgb(255, 104, 44);">
+            <span class="num">7</span>
+            <p>N</p>
+            <span class="meaning">Nitrogen</span>
+        </div>
+        <div class="element row2" data-foo="15.999" style="--color-family: rgb(255, 104, 44);">
+            <span class="num">8</span>
+            <p>O</p>
+            <span class="meaning">Oxygen</span>
+        </div>
+        <div class="element row2" data-foo="18.998" style="--color-family: rgb(255, 104, 44);">
+            <span class="num">9</span>
+            <p>F</p>
+            <span class="meaning">Fluorine</span>
+        </div>
+        <div class="element row2" data-foo="20.180" style="--color-family: rgb(74, 174, 255);">
+            <span class="num">10</span>
+            <p>Ne</p>
+            <span class="meaning">Neon</span>
+        </div>
+
+
+        <!-- ROW 3 -->
+        <div class="element row3" data-foo="22.990" style="--color-family: rgb(21, 255, 255);">
+            <span class="num">11</span>
+            <p>Na</p>
+            <span class="meaning">sodium</span>
+        </div>
+        <div class="element row3" data-foo="24.305" style="--color-family:rgb(255, 59, 92);">
+            <span class="num">12</span>
+            <p>Mg</p>
+            <span class="meaning">Magnesium</span>
+        </div>
+        <div class="element row3" data-foo="26.982" style="--color-family:rgb(255, 230, 0);">
+            <span class="num">13</span>
+            <p>Al</p>
+            <span class="meaning">Aluminum</span>
+        </div>
+        <div class="element row3" data-foo="28.085" style="--color-family:rgb(255, 255, 255);">
+            <span class="num">14</span>
+            <p>Si</p>
+            <span class="meaning">Silicon</span>
+        </div>
+        <div class="element row3" data-foo="30.974" style="--color-family: rgb(255, 104, 44);">
+            <span class="num">15</span>
+            <p>P</p>
+            <span class="meaning">Phosphorus</span>
+        </div>
+        <div class="element row3" data-foo="32.06" style="--color-family: rgb(255, 104, 44);">
+            <span class="num">16</span>
+            <p>S</p>
+            <span class="meaning">Sulfur</span>
+        </div>
+        <div class="element row3" data-foo="35.45" style="--color-family: rgb(255, 104, 44);">
+            <span class="num">17</span>
+            <p>Cl</p>
+            <span class="meaning">Chlorine</span>
+        </div>
+        <div class="element row3" data-foo="39.9" style="--color-family: rgb(74, 174, 255);">
+            <span class="num">18</span>
+            <p>Ar</p>
+            <span class="meaning">Argon</span>
+        </div>
+
+        <!-- ROW4 -->
+        <div class="element row4" data-foo="39.098" style="--color-family: rgb(21, 255, 255);">
+            <span class="num">19</span>
+            <p>K</p>
+            <span class="meaning">Potassium</span>
+        </div>
+        <div class="element row4" data-foo="40.08" style="--color-family:rgb(255, 59, 92);">
+            <span class="num">20</span>
+            <p>Ca</p>
+            <span class="meaning">Calcium</span>
+        </div>
+        <div class="element row4" data-foo="44.955" style="--color-family:rgb(0, 255, 106);">
+            <span class="num">21</span>
+            <p>Sc</p>
+            <span class="meaning">Scandium</span>
+        </div>
+        <div class="element row4" data-foo="47.867" style="--color-family:rgb(0, 255, 106);">
+            <span class="num">22</span>
+            <p>Ti</p>
+            <span class="meaning">Titanium</span>
+        </div>
+        <div class="element row4" data-foo="50.94" style="--color-family:rgb(0, 255, 106);">
+            <span class="num">23</span>
+            <p>V</p>
+            <span class="meaning">Vanadium</span>
+        </div>
+        <div class="element row4" data-foo="51.996" style="--color-family:rgb(0, 255, 106);">
+            <span class="num">24</span>
+            <p>Cr</p>
+            <span class="meaning">Chromium</span>
+        </div>
+        <div class="element row4" data-foo="54.938" style="--color-family:rgb(0, 255, 106);">
+            <span class="num">25</span>
+            <p>Mn</p>
+            <span class="meaning">Manganese</span>
+        </div>
+        <div class="element row4" data-foo="55.84" style="--color-family:rgb(0, 255, 106);">
+            <span class="num">26</span>
+            <p>Fe</p>
+            <span class="meaning">Iron</span>
+        </div>
+        <div class="element row4" data-foo="58.933" style="--color-family:rgb(0, 255, 106);">
+            <span class="num">27</span>
+            <p>Co</p>
+            <span class="meaning">Cobalt</span>
+        </div>
+        <div class="element row4" data-foo="58.693" style="--color-family:rgb(0, 255, 106);">
+            <span class="num">28</span>
+            <p>Ni</p>
+            <span class="meaning">Nickel</span>
+        </div>
+        <div class="element row4" data-foo="63.55" style="--color-family:rgb(0, 255, 106);">
+            <span class="num">29</span>
+            <p>Cu</p>
+            <span class="meaning">Copper</span>
+        </div>
+        <div class="element row4" data-foo="65.4" style="--color-family:rgb(0, 255, 106);">
+            <span class="num">30</span>
+            <p>Zn</p>
+            <span class="meaning">Zinc</span>
+        </div>
+        <div class="element row4" data-foo="69.723" style="--color-family:rgb(255, 230, 0);">
+            <span class="num">31</span>
+            <p>Ga</p>
+            <span class="meaning">Gallium</span>
+        </div>
+        <div class="element row4" data-foo="72.63" style="--color-family:rgb(255, 255, 255);">
+            <span class="num">32</span>
+            <p>Ge</p>
+            <span class="meaning">Germanium</span>
+        </div>
+        <div class="element row4" data-foo="74.921" style="--color-family:rgb(255, 255, 255);">
+            <span class="num">33</span>
+            <p>As</p>
+            <span class="meaning">Arsenic</span>
+        </div>
+        <div class="element row4" data-foo="78.97" style="--color-family: rgb(255, 104, 44);">
+            <span class="num">34</span>
+            <p>Se</p>
+            <span class="meaning">Selenium</span>
+        </div>
+        <div class="element row4" data-foo="79.90" style="--color-family: rgb(255, 104, 44);">
+            <span class="num">35</span>
+            <p>Br</p>
+            <span class="meaning">Bromine</span>
+        </div>
+        <div class="element row4" data-foo="83.80" style="--color-family: rgb(74, 174, 255);">
+            <span class="num">36</span>
+            <p>Kr</p>
+            <span class="meaning">Krypton</span>
+        </div>
+
+        <!-- ROW5 -->
+        <div class="element row5" data-foo="85.468" style="--color-family: rgb(21, 255, 255);">
+            <span class="num">37</span>
+            <p>Rb</p>
+            <span class="meaning">Rubidium</span>
+        </div>
+        <div class="element row5" data-foo="87.62" style="--color-family:rgb(255, 59, 92);">
+            <span class="num">38</span>
+            <p>Sr</p>
+            <span class="meaning">Strontium</span>
+        </div>
+        <div class="element row5" data-foo="88.905" style="--color-family:rgb(0, 255, 106);">
+            <span class="num">39</span>
+            <p>Y</p>
+            <span class="meaning">Yttrium</span>
+        </div>
+        <div class="element row5" data-foo="91.22" style="--color-family:rgb(0, 255, 106);">
+            <span class="num">40</span>
+            <p>Zr</p>
+            <span class="meaning">Zirconium</span>
+        </div>
+        <div class="element row5" data-foo="92.906" style="--color-family:rgb(0, 255, 106);">
+            <span class="num">41</span>
+            <p>Nb</p>
+            <span class="meaning">Niobium</span>
+        </div>
+        <div class="element row5" data-foo="95.95" style="--color-family:rgb(0, 255, 106);">
+            <span class="num">42</span>
+            <p>Mo</p>
+            <span class="meaning">Molybdenum</span>
+        </div>
+        <div class="element row5" data-foo="96.906" style="--color-family:rgb(0, 255, 106);">
+            <span class="num">43</span>
+            <p>Tc</p>
+            <span class="meaning">Technetium</span>
+        </div>
+        <div class="element row5" data-foo="101.1" style="--color-family:rgb(0, 255, 106);">
+            <span class="num">44</span>
+            <p>Ru</p>
+            <span class="meaning">Ruthenium</span>
+        </div>
+        <div class="element row5" data-foo="102.90" style="--color-family:rgb(0, 255, 106);">
+            <span class="num">45</span>
+            <p>Rh</p>
+            <span class="meaning">Rhodium</span>
+        </div>
+        <div class="element row5" data-foo="106.42" style="--color-family:rgb(0, 255, 106);">
+            <span class="num">46</span>
+            <p>Pd</p>
+            <span class="meaning">Palladium</span>
+        </div>
+        <div class="element row5" data-foo="107.86" style="--color-family:rgb(0, 255, 106);">
+            <span class="num">47</span>
+            <p>Ag</p>
+            <span class="meaning">Silver</span>
+        </div>
+        <div class="element row5" data-foo="112.41" style="--color-family:rgb(0, 255, 106);">
+            <span class="num">48</span>
+            <p>Cd</p>
+            <span class="meaning">Cadmium</span>
+        </div>
+        <div class="element row5" data-foo="114.81" style="--color-family:rgb(255, 230, 0);">
+            <span class="num">49</span>
+            <p>In</p>
+            <span class="meaning">Indium</span>
+        </div>
+        <div class="element row5" data-foo="118.71" style="--color-family:rgb(255, 230, 0);">
+            <span class="num">50</span>
+            <p>Sn</p>
+            <span class="meaning">Tin</span>
+        </div>
+        <div class="element row5" data-foo="121.76" style="--color-family:rgb(255, 255, 255);">
+            <span class="num">51</span>
+            <p>Sb</p>
+            <span class="meaning">Antimony</span>
+        </div>
+        <div class="element row5" data-foo="121.6" style="--color-family:rgb(255, 255, 255);">
+            <span class="num">52</span>
+            <p>Te</p>
+            <span class="meaning">Tellurium</span>
+        </div>
+        <div class="element row5" data-foo="126.90" style="--color-family: rgb(255, 104, 44);">
+            <span class="num">53</span>
+            <p>I</p>
+            <span class="meaning">Iodine</span>
+        </div>
+        <div class="element row5" data-foo="131.29" style="--color-family: rgb(74, 174, 255);">
+            <span class="num">54</span>
+            <p>Xe</p>
+            <span class="meaning">Xenon</span>
+        </div>
+
+        <!-- ROW6 -->
+        <div class="element row6" data-foo="132.90" style="--color-family: rgb(21, 255, 255);">
+            <span class="num">55</span>
+            <p>Cs</p>
+            <span class="meaning">Cesium</span>
+        </div>
+        <div class="element row6" data-foo="137.33" style="--color-family:rgb(255, 59, 92);">
+            <span class="num">56</span>
+            <p>Ba</p>
+            <span class="meaning">Barium</span>
+        </div>
+        <div class="element row6 empty" style="--color-family:rgb(196, 196, 196);">
+            <p style="font-size: 0.8rem;">57-71</p>
+        </div>
+        <div class="element row6" data-foo="178.49" style="--color-family:rgb(0, 255, 106);">
+            <span class="num">72</span>
+            <p>Hf</p>
+            <span class="meaning">Hafnium</span>
+        </div>
+        <div class="element row6" data-foo="180.94" style="--color-family:rgb(0, 255, 106);">
+            <span class="num">73</span>
+            <p>Ta</p>
+            <span class="meaning">Tantalum</span>
+        </div>
+        <div class="element row6" data-foo="183.84" style="--color-family:rgb(0, 255, 106);">
+            <span class="num">74</span>
+            <p>W</p>
+            <span class="meaning">Tungsten</span>
+        </div>
+        <div class="element row6" data-foo="186.20" style="--color-family:rgb(0, 255, 106);">
+            <span class="num">75</span>
+            <p>Re</p>
+            <span class="meaning">Rhenium</span>
+        </div>
+        <div class="element row6" data-foo="190.2" style="--color-family:rgb(0, 255, 106);">
+            <span class="num">76</span>
+            <p>Os</p>
+            <span class="meaning">Osmium</span>
+        </div>
+        <div class="element row6" data-foo="192.22" style="--color-family:rgb(0, 255, 106);">
+            <span class="num">77</span>
+            <p>Ir</p>
+            <span class="meaning">Iridium</span>
+        </div>
+        <div class="element row6" data-foo="195.08" style="--color-family:rgb(0, 255, 106);">
+            <span class="num">78</span>
+            <p>Pt</p>
+            <span class="meaning">Platinum</span>
+        </div>
+        <div class="element row6" data-foo="196.96" style="--color-family:rgb(0, 255, 106);">
+            <span class="num">79</span>
+            <p>Au</p>
+            <span class="meaning">Gold</span>
+        </div>
+        <div class="element row6" data-foo="200.59" style="--color-family:rgb(0, 255, 106);">
+            <span class="num">80</span>
+            <p>Hg</p>
+            <span class="meaning">Mercury</span>
+        </div>
+        <div class="element row6" data-foo="204.38" style="--color-family:rgb(255, 230, 0);">
+            <span class="num">81</span>
+            <p>Tl</p>
+            <span class="meaning">Thallium</span>
+        </div>
+        <div class="element row6" data-foo="207" style="--color-family:rgb(255, 230, 0);">
+            <span class="num">82</span>
+            <p>Pb</p>
+            <span class="meaning">Lead</span>
+        </div>
+        <div class="element row6" data-foo="208.980" style="--color-family:rgb(255, 230, 0);">
+            <span class="num">83</span>
+            <p>Bi</p>
+            <span class="meaning">Bismuth</span>
+        </div>
+        <div class="element row6" data-foo="208.982" style="--color-family:rgb(255, 230, 0);">
+            <span class="num">84</span>
+            <p>Po</p>
+            <span class="meaning">Polonium</span>
+        </div>
+        <div class="element row6" data-foo="209.98" style="--color-family:rgb(255, 230, 0);">
+            <span class="num">85</span>
+            <p>At</p>
+            <span class="meaning">Astatine</span>
+        </div>
+        <div class="element row6" data-foo="222.01" style="--color-family: rgb(74, 174, 255);">
+            <span class="num">86</span>
+            <p>Rn</p>
+            <span class="meaning">Radon</span>
+        </div>
+
+        <!-- ROW7 -->
+        <div class="element row7" data-foo="223.01" style="--color-family: rgb(21, 255, 255);">
+            <span class="num">87</span>
+            <p>Fr</p>
+            <span class="meaning">francium</span>
+        </div>
+        <div class="element row7" data-foo="226.02" style="--color-family:rgb(255, 59, 92);">
+            <span class="num">88</span>
+            <p>Ra</p>
+            <span class="meaning">Radium</span>
+        </div>
+        <div class="element row7 empty" style="--color-family:rgb(255, 83, 203);">
+            <p style="font-size: 0.8rem;">89-103</p>
+        </div>
+        <div class="element row7" data-foo="267.122" style="--color-family:rgb(0, 255, 106);">
+            <span class="num">104</span>
+            <p>Rf</p>
+            <span class="meaning">rutherfordium</span>
+        </div>
+        <div class="element row7" data-foo="268.126" style="--color-family:rgb(0, 255, 106);">
+            <span class="num">105</span>
+            <p>Db</p>
+            <span class="meaning">Dubnium</span>
+        </div>
+        <div class="element row7" data-foo="269.128" style="--color-family:rgb(0, 255, 106);">
+            <span class="num">106</span>
+            <p>Sg</p>
+            <span class="meaning">seaborgium</span>
+        </div>
+        <div class="element row7" data-foo="270.133" style="--color-family:rgb(0, 255, 106);">
+            <span class="num">107</span>
+            <p>Bh</p>
+            <span class="meaning">Bohrium</span>
+        </div>
+        <div class="element row7" data-foo="269.133" style="--color-family:rgb(0, 255, 106);">
+            <span class="num">108</span>
+            <p>Hs</p>
+            <span class="meaning">hassium</span>
+        </div>
+        <div class="element row7" data-foo="277.154" style="--color-family:#FFD371">
+            <span class="num">109</span>
+            <p>Mt</p>
+            <span class="meaning">meitnerium</span>
+        </div>
+        <div class="element row7" data-foo="282.166" style="--color-family:#FFD371">
+            <span class="num">110</span>
+            <p>Ds</p>
+            <span class="meaning">darmstadtium</span>
+        </div>
+        <div class="element row7" data-foo="282.169" style="--color-family:#FFD371">
+            <span class="num">111</span>
+            <p>Rg</p>
+            <span class="meaning">roentgenium</span>
+        </div>
+        <div class="element row7" data-foo="286.179" style="--color-family:#FFD371">
+            <span class="num">112</span>
+            <p>Cn</p>
+            <span class="meaning">copernicium</span>
+        </div>
+        <div class="element row7" data-foo="286.182" style="--color-family:#FFD371">
+            <span class="num">113</span>
+            <p>Nh</p>
+            <span class="meaning">nihonium</span>
+        </div>
+        <div class="element row7" data-foo="290.192" style="--color-family:#FFD371">
+            <span class="num">114</span>
+            <p>Fl</p>
+            <span class="meaning">flerovium</span>
+        </div>
+        <div class="element row7" data-foo="290.196" style="--color-family:#FFD371">
+            <span class="num">115</span>
+            <p>Mc</p>
+            <span class="meaning">moscovium</span>
+        </div>
+        <div class="element row7" data-foo="293.205" style="--color-family:#FFD371">
+            <span class="num">116</span>
+            <p>Lv</p>
+            <span class="meaning">livermorium</span>
+        </div>
+        <div class="element row7" data-foo="294.211" style="--color-family:#FFD371">
+            <span class="num">117</span>
+            <p>Ts</p>
+            <span class="meaning">Tennessine</span>
+        </div>
+        <div class="element row7" data-foo="295.216" style="--color-family:#FFD371">
+            <span class="num">118</span>
+            <p>Og</p>
+            <span class="meaning">Oganesson</span>
+        </div>
+
+        <!-- ROW8 -->
+        <div class="element row8 space"></div>
+        <div class="element row8" data-foo="138.90" style="--color-family:rgb(196, 196, 196);">
+            <span class="num">57</span>
+            <p>La</p>
+            <span class="meaning">Lanthanum</span>
+        </div>
+        <div class="element row8" data-foo="140.116" style="--color-family:rgb(196, 196, 196);">
+            <span class="num">58</span>
+            <p>Ce</p>
+            <span class="meaning">Cerium</span>
+        </div>
+        <div class="element row8" data-foo="140.90" style="--color-family:rgb(196, 196, 196);">
+            <span class="num">59</span>
+            <p>Pr</p>
+            <span class="meaning">praseodymium</span>
+        </div>
+        <div class="element row8" data-foo="144.24" style="--color-family:rgb(196, 196, 196);">
+            <span class="num">60</span>
+            <p>Nd</p>
+            <span class="meaning">neodymium</span>
+        </div>
+        <div class="element row8" data-foo="144.91" style="--color-family:rgb(196, 196, 196);">
+            <span class="num">61</span>
+            <p>Pm</p>
+            <span class="meaning">Promethium</span>
+        </div>
+        <div class="element row8" data-foo="150.4" style="--color-family:rgb(196, 196, 196);">
+            <span class="num">62</span>
+            <p>Sm</p>
+            <span class="meaning">Samarium</span>
+        </div>
+        <div class="element row8" data-foo="151.964" style="--color-family:rgb(196, 196, 196);">
+            <span class="num">63</span>
+            <p>Eu</p>
+            <span class="meaning">Europium</span>
+        </div>
+        <div class="element row8" data-foo="157.2" style="--color-family:rgb(196, 196, 196);">
+            <span class="num">64</span>
+            <p>Gd</p>
+            <span class="meaning">Gadolinium</span>
+        </div>
+        <div class="element row8" data-foo="158.92" style="--color-family:rgb(196, 196, 196);">
+            <span class="num">65</span>
+            <p>Tb</p>
+            <span class="meaning">Terbium</span>
+        </div>
+        <div class="element row8" data-foo="162.500" style="--color-family:rgb(196, 196, 196);">
+            <span class="num">66</span>
+            <p>Dy</p>
+            <span class="meaning">Dysprosium</span>
+        </div>
+        <div class="element row8" data-foo="164.930" style="--color-family:rgb(196, 196, 196);">
+            <span class="num">67</span>
+            <p>Ho</p>
+            <span class="meaning">Holmium</span>
+        </div>
+        <div class="element row8" data-foo="167.26" style="--color-family:rgb(196, 196, 196);">
+            <span class="num">68</span>
+            <p>Er</p>
+            <span class="meaning">Erbium</span>
+        </div>
+        <div class="element row8" data-foo="168.93" style="--color-family:rgb(196, 196, 196);">
+            <span class="num">69</span>
+            <p>Tm</p>
+            <span class="meaning">Thulium</span>
+        </div>
+        <div class="element row8" data-foo="173.05" style="--color-family:rgb(196, 196, 196);">
+            <span class="num">70</span>
+            <p>Yb</p>
+            <span class="meaning">Ytterbium</span>
+        </div>
+        <div class="element row8" data-foo="174.966" style="--color-family:rgb(196, 196, 196);">
+            <span class="num">71</span>
+            <p>Lu</p>
+            <span class="meaning">Lutetium</span>
+        </div>
+
+        <!-- ROW9 -->
+        <div class="element row9 space"></div>
+        <div class="element row9" data-foo="227.02" style="--color-family:rgb(255, 83, 203);">
+            <span class="num">89</span>
+            <p>Ac</p>
+            <span class="meaning">Actinium</span>
+        </div>
+        <div class="element row9" data-foo="232.03" style="--color-family:rgb(255, 83, 203);">
+            <span class="num">90</span>
+            <p>Th</p>
+            <span class="meaning">Thorium</span>
+        </div>
+        <div class="element row9" data-foo="231.035" style="--color-family:rgb(255, 83, 203);">
+            <span class="num">91</span>
+            <p>Pa</p>
+            <span class="meaning">Protactinium</span>
+        </div>
+        <div class="element row9" data-foo="238.02" style="--color-family:rgb(255, 83, 203);">
+            <span class="num">92</span>
+            <p>U</p>
+            <span class="meaning">Uranium</span>
+        </div>
+        <div class="element row9" data-foo="237.04" style="--color-family:rgb(255, 83, 203);">
+            <span class="num">93</span>
+            <p>Np</p>
+            <span class="meaning">Neptunium</span>
+        </div>
+        <div class="element row9" data-foo="244.06" style="--color-family:rgb(255, 83, 203);">
+            <span class="num">94</span>
+            <p>Pu</p>
+            <span class="meaning">Plutonium</span>
+        </div>
+        <div class="element row9" data-foo="243.061" style="--color-family:rgb(255, 83, 203);">
+            <span class="num">95</span>
+            <p>Am</p>
+            <span class="meaning">Americium</span>
+        </div>
+        <div class="element row9" data-foo="247.07035" style="--color-family:rgb(255, 83, 203);">
+            <span class="num">96</span>
+            <p>Cm</p>
+            <span class="meaning">Curium</span>
+        </div>
+        <div class="element row9" data-foo="247.07031" style="--color-family:rgb(255, 83, 203);">
+            <span class="num">97</span>
+            <p>Bk</p>
+            <span class="meaning">Berkelium</span>
+        </div>
+        <div class="element row9" data-foo="251.07" style="--color-family:rgb(255, 83, 203);">
+            <span class="num">98</span>
+            <p>Cf</p>
+            <span class="meaning">	Californium</span>
+        </div>
+        <div class="element row9" data-foo="252.08" style="--color-family:rgb(255, 83, 203);">
+            <span class="num">99</span>
+            <p>Es</p>
+            <span class="meaning">Einsteinium</span>
+        </div>
+        <div class="element row9" data-foo="257.09" style="--color-family:rgb(255, 83, 203);">
+            <span class="num">100</span>
+            <p>Fm</p>
+            <span class="meaning">Fermium</span>
+        </div>
+        <div class="element row9" data-foo="258.09" style="--color-family:rgb(255, 83, 203);">
+            <span class="num">101</span>
+            <p>Md</p>
+            <span class="meaning">Mendelevium</span>
+        </div>
+        <div class="element row9" data-foo="259.10" style="--color-family:rgb(255, 83, 203);">
+            <span class="num">102</span>
+            <p>No</p>
+            <span class="meaning">Nobelium</span>
+        </div>
+        <div class="element row9" data-foo="266.120" style="--color-family:rgb(255, 83, 203);">
+            <span class="num">103</span>
+            <p>Lr</p>
+            <span class="meaning">Lawrencium</span>
+        </div>
+
+    </div>
+</body>
+</html>
